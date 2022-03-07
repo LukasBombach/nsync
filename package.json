@@ -1,0 +1,15 @@
+{
+  "name": "nsync",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LukasBombach/nsync",
+  "author": "Lukas Bombach <lukas.bombach@googlemail.com>",
+  "license": "MIT",
+  "scripts": {
+    "apps": "node -r @swc-node/register src/apps.ts"
+  },
+  "dependencies": {
+    "@swc-node/register": "1.4.2",
+    "chokidar": "3.5.3"
+  }
+}
